@@ -1,0 +1,13 @@
+{
+  "name": "smart-pos-yojionline",
+  "private": true,
+  "scripts": {
+    "dev": "node tools/serve.js",
+    "check": "node tools/check_syntax.js && python3 tools/update_headers.py --check && python3 tools/check_sql.py",
+    "headers": "python3 tools/update_headers.py",
+    "test": "node --test tests/app.test.js tests/flows.test.js tests/store.test.js tests/boot.test.js tests/staff.test.js tests/readiness.test.js tests/owner-sync.test.js tests/pin-login.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

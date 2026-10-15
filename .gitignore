@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+*.zip
+images/
+.DS_Store
+# ห้าม commit key ฝั่งเซิร์ฟเวอร์ (service_role) เด็ดขาด — แอปเก็บเฉพาะ anon key ไว้ใน localStorage ของเครื่อง

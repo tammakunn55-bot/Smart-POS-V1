@@ -1,0 +1,4 @@
+# ใช้กับ Supabase CLI (supabase functions deploy pin-login)
+[functions.pin-login]
+# ฟังก์ชันนี้ยืนยันตัวตนด้วย PIN เอง (ผู้เรียกยังไม่มี session) — ต้องปิดการตรวจ JWT ของ gateway
+verify_jwt = false
